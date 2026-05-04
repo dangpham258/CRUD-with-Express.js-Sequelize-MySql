@@ -1,0 +1,37 @@
+{
+    "name": "crud-with-express.js-sequelize-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/dangpham258/CRUD-with-Express.js-Sequelize-MySql#readme",
+    "bugs": {
+        "url": "https://github.com/dangpham258/CRUD-with-Express.js-Sequelize-MySql/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dangpham258/CRUD-with-Express.js-Sequelize-MySql.git"
+    },
+    "license": "ISC",
+    "author": "23110203 - Pham Tran Thien Dang",
+    "type": "commonjs",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node src/server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "body-parser": "^2.2.2",
+        "dotenv": "^17.4.2",
+        "ejs": "^5.0.2",
+        "express": "^5.2.1",
+        "mysql2": "^3.22.3",
+        "sequelize": "^6.37.8"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.29.0",
+        "@babel/node": "^7.29.0",
+        "@babel/preset-env": "^7.29.3",
+        "nodemon": "^3.1.14",
+        "sequelize-cli": "^6.6.5"
+    }
+}
